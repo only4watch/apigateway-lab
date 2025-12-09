@@ -7,7 +7,11 @@ spec:
   parentRefs:
   - name: external-http-gw
   rules:
-  - backendRefs:
+  - matches:
+    - path:
+        type: PathPrefix
+        value: /
+    backendRefs:
     - name: hello-svc
       port: 80
       weight: 10
