@@ -1,4 +1,4 @@
-...existing code...
+
 # apigateway-lab
 
 A small demo that provisions a Namespace, two sample apps (hello-app and echo-v2),
@@ -89,8 +89,6 @@ Test results:
 ![alt text](image.png)
 gateway results
 ![alt text](image-1.png)
-First Service 
-![alt text](image-2.png)
 Second Service 
 ![alt text](image-3.png)
 
